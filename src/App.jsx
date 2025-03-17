@@ -25,7 +25,7 @@ const App = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await fetch('https://ecommerce-backend-client.vercel.app/api/v1/register', {
+      const response = await fetch('https://ecommerce-client-backend.onrender.com/api/v1/register', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
